@@ -1,0 +1,2 @@
+# JadeWM
+smithayを使ったウィンドウマネージャ
