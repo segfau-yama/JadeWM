@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JadeWM Tailwind Decorations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+  <main class="mx-auto max-w-4xl p-8">
+    <h1 class="mb-4 text-3xl font-bold tracking-tight">JadeWM Decoration Template</h1>
+    <p class="mb-8 text-slate-300">このHTMLは、Waylandクライアント側の装飾をTailwindで作るためのテンプレートです。</p>
+
+    <section class="overflow-hidden rounded-2xl border border-slate-700 shadow-2xl shadow-slate-900/60">
+      <div class="flex items-center justify-between bg-slate-800 px-4 py-2">
+        <div class="text-sm font-medium">Terminal - Tailwind Decoration Sample</div>
+        <div class="flex gap-2">
+          <button class="h-3 w-3 rounded-full bg-yellow-400"></button>
+          <button class="h-3 w-3 rounded-full bg-green-400"></button>
+          <button class="h-3 w-3 rounded-full bg-red-400"></button>
+        </div>
+      </div>
+      <div class="bg-slate-900 p-6 font-mono text-sm leading-6 text-emerald-300">
+        <p>$ echo "hello from JadeWM"</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
